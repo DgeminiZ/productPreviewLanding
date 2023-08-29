@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="css/main.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Product preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(158, 36%, 37%); }
+  </style>
+</head>
+
+<body class="bg-cream">
+<div class="bg-white mx-[20px] my-[40px] rounded-md max-w-[440px] leading-[15px] md:max-w-[1440px] md:mx-[90px] md:my-[90px] md:flex md:flex-row lg:mx-[160px] lg:my-[160px] xl:mx-[320px] xl:my-[320px]">
+  <div>
+    <img class="rounded-t-md max-w-440px md:hidden" src="images/image-product-mobile.jpg" alt="product image">
+    <img class="hidden md:block rounded-l-md " src="images/image-product-desktop.jpg" alt="product image">
+  </div>
+
+  <div class="mx-[40px] my-[20px] md:pt-[20px] md:w-[450px] lg:w-[500px] lg:pt-[40px]">
+    <h5 class="uppercase font-montserrat text-darkGrayishBlue font-medium tracking-[7px] text-[14px]">Perfume</h5> <br>
+
+    <h1 class="font-fraunces text-[30px] leading-[35px] font-bold text-veryDarkBlue md:pt-[15px] lg:pt-[30px]">Gabrielle <br class="hidden md:block"> Essence Eau <br class="hidden md:block"> De Parfum</h1> <br>
+
+    <p class="text-[14px] font-montserrat text-darkGrayishBlue leading-[25px] md:pt-[15px]">A floral, solar and voluptuous <br class="block"> interpretation composed by <br class="hidden md:block"> Olivier <br class="block md:hidden"> Polge, 
+    Perfumer-Creator <br class="hidden md:block"> for the House of CHANEL.</p> <br>
+    
+    <div class="flex flex-row items-center mt-[10px] mb-[20px] md:pt-[25px]">
+    <h1 class="font-fraunces text-darkCyan text-[30px]">$149.99</h1>
+    <h6 class="ml-[20px] text-[14px] text-darkGrayishBlue line-through">$169.99</h6> <br>
+    </div>
+
+    <div class="pb-[30px] pt-[10px] md:pt-[30px]">
+    <button class="flex align-middle bg-darkCyan w-full py-[15px] px-[90px] rounded-md hover:bg-veryDarkBlue text-center"><img src="images/icon-cart.svg" alt="shopping cart"> <h6 class="font-montserrat text-[14px] text-white ml-[10px]">Add to Cart</h6></button>
+    </div>
+  </div>
+</div> 
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">DgeminiZ</a>.
+  </div>
+</body>
+</html>
